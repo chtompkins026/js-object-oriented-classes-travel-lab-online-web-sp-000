@@ -27,6 +27,11 @@ class Route {
     this.beginningLocation = beginningLocation; 
     this.endingLocation = endingLocation; 
   }
+    
+    aveToInt(ave) {
+    return eastWest.indexOf(ave)
+  }
+  
   
   
   
