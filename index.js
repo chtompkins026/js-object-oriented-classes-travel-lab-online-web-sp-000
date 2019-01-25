@@ -23,7 +23,10 @@ let eastWest = [
 ];
 
 class Route { 
-  constructor(beginningLocation, )
+  constructor(beginningLocation, endingLocation){
+    this.beginningLocation = beginningLocation; 
+    this.endingLocation = endingLocation; 
+  }
   
   
 } // end of Route class
