@@ -23,7 +23,7 @@ let eastWest = [
 ];
 
 class Route { 
-  
+  constructor()
   
   
 } // end of Route class
