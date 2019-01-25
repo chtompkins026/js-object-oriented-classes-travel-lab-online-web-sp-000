@@ -2,14 +2,12 @@
 class Driver { 
   constructor(name, string){
     this.name = name; 
-    this.string = string; 
+    this.startDate = new Date(string); 
   }
   
-  startDate() {
-    var parts = this.string.split("-")
-    return new Date(parts[2], parts[1] - 1, parts[0])
+  yearsExperienceFromBeginningOf(date){ 
+    let endDate = new Date(date, 1, 1)
+    
   }
-  
-  yearsExperienceFromBeginningOf
   
 } //end of Driver class
